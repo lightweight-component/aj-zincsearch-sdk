@@ -5,7 +5,6 @@ import java.util.Map;
 
 import com.ajaxjs.net.http.Delete;
 import com.ajaxjs.net.http.Post;
-import com.ajaxjs.util.map.MapTool;
 import com.ajaxjs.zinc.model.ZincResponse;
 
 /**
@@ -53,7 +52,7 @@ public class DocumentService extends BaseService {
 	 * 创建实体
 	 * 
 	 * @param target index 名称
-	 * @param bean   Java 实体 Map
+	 * @param doc   Java 实体 Map
 	 * @param id     实体 id
 	 * @return
 	 */
